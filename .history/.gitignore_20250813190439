@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+env/
+.venv/
+venv/
+# Add other common virtual environment names if used (e.g., .conda, .direnv)
+
+# Editor and IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Database files
+*.sqlite3
+*.db
+# If using a specific database like PostgreSQL or MySQL,
+# you might ignore specific data directories or files,
+# but usually, these are managed externally or via Docker.
+
+# Environment variables
+.env
+.flaskenv
+
+# Log files
+*.log
+logs/
+
+# Test reports
+.coverage
+htmlcov/
+
+# Build artifacts (if any)
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Other temporary or sensitive files
+# Add any other files or directories specific to your project
+# that should not be committed to version control.
